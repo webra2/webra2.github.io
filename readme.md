@@ -11,4 +11,8 @@ In most cases, you only need to access https://game.chronodivide.com/ to play.
 
 If you enjoy the game and would like to offer your support, please consider making a donation :https://chronodivide.com/#donate
 
+### Demo 
+[play](https://webra2.github.io)
+
+
 ### The project is still under construction
