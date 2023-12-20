@@ -16,7 +16,7 @@
     "ts:gameres_browse_folder": "选择文件夹...",
     "ts:gameres_browse_archive": "选择归档文件...",
     "ts:gameres_supported_archive_formats": "支持的归档文件格式：rar、tar、tar.gz、tar.bz2、tar.xz、zip、7z、exe（sfx）",
-    "ts:gameres_download_desc": "您还可以从 XWIS.net（官方服务器）下载免费的仅多人游戏版本红色警戒2归档：",
+    "ts:gameres_download_desc": "您还可以从下载免费的仅多人游戏版本红色警戒2归档：",
     "ts:gameres_download_hint": "提示：使用右键单击 -> “另存链接为...”，然后将下载的文件拖放到下面的框中：",
     "ts:gameres_download_size": "下载大小：约 %d MiB",
 

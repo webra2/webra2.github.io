@@ -16,7 +16,7 @@
     "ts:gameres_browse_folder": "Select folder...",
     "ts:gameres_browse_archive": "Select archive...",
     "ts:gameres_supported_archive_formats": "Supported archive formats: rar, tar, tar.gz, tar.bz2, tar.xz, zip, 7z, exe (sfx)",
-    "ts:gameres_download_desc": "You can also download a free multiplayer-only RA2 archive from XWIS.net (official server) here:",
+    "ts:gameres_download_desc": "You can also download a free multiplayer-only RA2 archive from here:",
     "ts:gameres_download_hint": "HINT: Use Right-click -> \"Save link as...\", then drop the downloaded file in the box below:",
     "ts:gameres_download_size": "Download size: ~%d MiB",
 
