@@ -3,6 +3,10 @@ This project is led by [chronodivide-downloader](https://github.com/webra2/chron
 
 这个项目由  [chronodivide-downloader](https://github.com/webra2/chronodivide-downloader) 自动从网页版红警官网 [chronodivide](https://game.chronodivide.com/) 下载并生成网页版红警安装包，可以支持一键部署到腾讯云等环境。
 
+### 一键部署到腾讯云
+
+[![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&dir=%2F&reponame=%E7%BD%91%E9%A1%B5%E7%BA%A2%E8%AD%A6)
+
 ### Credit
 
 First of all, thanks EL President, the creator of Red Alert 2 running on the webpage. He Created great project Chronodivide.
