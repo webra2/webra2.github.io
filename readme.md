@@ -4,8 +4,7 @@ This project is led by [chronodivide-downloader](https://github.com/webra2/chron
 这个项目由  [chronodivide-downloader](https://github.com/webra2/chronodivide-downloader) 自动从网页版红警官网 [chronodivide](https://game.chronodivide.com/) 下载并生成网页版红警安装包，可以支持一键部署到腾讯云等环境。
 
 ### 一键部署到腾讯云
-
-[![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/tcb/env/index?&action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&appName=webra2&workDir=/)
+[![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&dir=%2F&reponame=webra2)
 
 目前使用的mix文件在config.ini里配置的云红警的站点，可以从这个项目的历史提交里找到所有mix文件，然后改成自己的站点。
 
