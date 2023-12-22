@@ -5,7 +5,7 @@ This project is led by [chronodivide-downloader](https://github.com/webra2/chron
 
 ### 一键部署到腾讯云
 
-[![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&dir=%2F&reponame=webra2.github.io)
+[![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&dir=%2F&reponame=webra2)
 
 ### Credit
 
