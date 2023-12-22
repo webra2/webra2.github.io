@@ -7,6 +7,8 @@ This project is led by [chronodivide-downloader](https://github.com/webra2/chron
 
 [![](https://cloudbase.net/deploy.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2Fwebra2%2Fwebra2.github.io&dir=%2F&reponame=webra2)
 
+目前使用的mix文件在config.ini里配置的云红警的站点，可以从这个项目的历史提交里找到所有mix文件，然后改成自己的站点。
+
 ### Credit
 
 First of all, thanks EL President, the creator of Red Alert 2 running on the webpage. He Created great project Chronodivide.
