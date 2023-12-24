@@ -1,19 +1,35 @@
-{
-    "0.40": "0.40.6",
-    "0.41": "0.41.7",
-    "0.42": "0.42.3",
-    "0.43": "0.43.0",
-    "0.44": "0.44.0",
-    "0.45": "0.45.1",
-    "0.46": "0.46.3",
-    "0.47": "0.47.1",
-    "0.48": "0.48.0",
-	"0.49": "0.49.0",
-	"0.50": "0.50.2",
-    "0.51": "0.51.1",
-    "0.52": "0.52.1",
-    "0.53": "0.53.0",
-    "0.54": "0.54.1",
-    "0.55": "0.55.7",
-	"0.56": "0.56.0"
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>One moment, please...</title>
+<style>
+body {
+    background: #F6F7F8;
+    color: #303131;
+    font-family: sans-serif;
+    margin-top: 45vh;
+    text-align: center;
 }
+</style>
+</head>
+<body>
+<h1>Please wait while your request is being verified...</h1>
+<form id="wsidchk-form" style="display:none;" action="/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f" method="get">
+<input type="hidden" id="wsidchk" name="wsidchk"/>
+</form>
+<script>
+(function(){
+    var west=+((+!+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![])+(+![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![])+(+!+[]+[])+(+!+[]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+[])),
+        east=+((+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+[])+(+!+[]+!![])+(+!+[]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![])),
+        x=function(){try{return !!window.addEventListener;}catch(e){return !!0;} },
+        y=function(y,z){x() ? document.addEventListener("DOMContentLoaded",y,z) : document.attachEvent("onreadystatechange",y);};
+    y(function(){
+        document.getElementById('wsidchk').value = west + east;
+        document.getElementById('wsidchk-form').submit();
+    }, false);
+})();
+</script>
+</body>
+</html>
