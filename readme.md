@@ -1,4 +1,4 @@
-### chronodivide assets (网页版红警2)
+### chronodivide assets (网页版红警2镜像)
 This project is led by [chronodivide-downloader](https://github.com/webra2/chronodivide-downloader) Automatically download and generate a web version of the Red Alert2 package from  [chronodivide](https://game.chronodivide.com/) , which can support one click deployment to Cloud Server.
 
 这个项目由  [chronodivide-downloader](https://github.com/webra2/chronodivide-downloader) 自动从网页版红警官网 [chronodivide](https://game.chronodivide.com/) 下载并生成网页版红警安装包，可以支持一键部署到腾讯云等环境。
