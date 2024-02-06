@@ -114,8 +114,8 @@
 
     "gui:demo": "演示模式",
     "stt:demo": "与训练模拟器进行单人对战",
-    "gui:aidummy": "训练模拟器",
-    "gui:aieasybeta": "容易对付的敌人（BETA版本）",
+    "gui:aidummy": "静止的靶子",
+    "gui:aieasybeta": "简单敌人（BETA）",
 
     "gui:quickmatchgamemode": "选择模式",
     "gui:ranked": "排位赛",
