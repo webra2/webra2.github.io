@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.4">
+  <meta name="viewport" content="width=device-width, initial-scale=0.46875">
   <meta name="description" content="An unofficial remake of the classic &quot;Command &amp; Conquer: Red Alert 2&quot; RTS game, playable online in the web browser." />
   <title>Red Alert 2: Chrono Divide</title>
   <script type="text/javascript">
@@ -33,7 +33,7 @@
   </script>
 
   <link href="res/fonts/fonts.css" rel="stylesheet"></link>
-  <link rel="stylesheet" href="style.css?v=0.57.3" type="text/css"></link>
+  <link rel="stylesheet" href="style.css?v=0.77.0" type="text/css"></link>
   <style type="text/css">
   #ra2web-root {
     position: relative;
@@ -71,9 +71,10 @@
   <script type="text/javascript" src="lib/growingpacker.js"></script>
   <script type="text/javascript" src="lib/lzo1x.js"></script>
   <script type="text/javascript" src="lib/fullscreen-api-polyfill.min.js"></script>
-  <script type="text/javascript" src="dist/ra2web.min.js?v=0.57.3"></script>
-  <script type="text/javascript" src="dist/vendor.bundle.min.js?v=0.57.3"></script>
-  <script type="text/javascript" src="dist/workerHost.min.js?v=0.57.3"></script>
+  <script type="text/javascript" src="dist/ra2web.min.js?v=0.77.0"></script>
+  <script type="text/javascript" src="dist/vendor.bundle.min.js?v=0.77.0"></script>
+  <script type="text/javascript" src="dist/workerHost.min.js?v=0.77.0"></script>
+  <script type="text/javascript" src="lib/poll.js?v=2"></script>
   <script type="text/javascript">
   SystemJS.config({
     packages: {
@@ -112,7 +113,7 @@
       "7z-wasm": "dist/7zz.js",
       "@ffmpeg/ffmpeg": "dist/ffmpeg.min.js",
       "file-system-access": "dist/fsalib.min.js?v=1.0.4",
-      "@chronodivide/sp-bots": "dist/spbots.min.js?v=1.0.0",
+      "@chronodivide/sp-bots": "dist/spbots.min.js?v=0.77.0",
       "@chronodivide/game-api": "game/api/index",
     }
   })
@@ -120,7 +121,8 @@
       module.exports = window.THREE;
   });
   if (browserSupported) {
-    SystemJS.import("main");
+    let pollId = "";
+    (pollId ? initPoll(pollId) : Promise.resolve()).then(() => SystemJS.import("main"));
     document.body.removeChild(document.getElementById("loader-wrapper"));
   }
   </script>
